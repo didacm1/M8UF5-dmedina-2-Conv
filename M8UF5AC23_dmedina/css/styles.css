@@ -1,0 +1,52 @@
+body{
+    background-image:url(../img/IMAGEN.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    
+}
+table{
+    font: 100% arial; font-size: medium;
+}
+.p1{
+    background-color: yellow;
+}
+.p2{
+    background-color:rgb(214, 184, 11);
+}
+.p3{
+    background-color:rgb(245, 180, 0) ;
+}
+.p4{
+    background-color: orange;
+}
+.p5{
+    background-color: peru;
+}
+.p6{
+    background-color: rosybrown;
+}
+.p7{
+    background-color: salmon;
+}
+.p8{
+    background-color: palevioletred;
+}
+.p9{
+    background-color: red;
+}
+.p10{
+    background-color: darkred;
+}
+p:hover{
+    background-color: dimgray;
+}
+.s1{
+    text-decoration: underline;
+}
+.s2{
+    text-decoration: overline;
+}
+.s3{
+    font-weight: bold; 
+}

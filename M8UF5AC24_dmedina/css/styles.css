@@ -1,0 +1,19 @@
+li {
+    list-style: none;
+    background-color: blue;
+    width: 15%;
+    border: solid white;
+    color: white;
+    text-align: center;
+}
+li:hover{
+    border: solid red;
+}
+.cap_de_setmana{
+    background-color: green;
+    width: 15%;
+}
+li.cap_de_setmana:hover{
+    background-color: grey;
+    color: black;
+}

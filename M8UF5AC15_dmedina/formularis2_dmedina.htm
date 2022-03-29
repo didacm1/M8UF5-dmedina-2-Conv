@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulari d'enviament</title>
+    <script type="text/javascript">
+        function validar(){
+        var psswd=document.getElementById("psswd").value;
+        var confpsswd=document.getElementById("confpsswd").value;
+        if(psswd==confpsswd){
+        return true;
+        }
+        else{
+        alert("No coincideix");
+        return false;
+        }
+        }
+        </script>
+</head>
+<body>
+    <table bgcolor="EFEFEF"><font face="Verdana">
+        <form method="get" action="mailto:didac.medina@inslapineda.cat" onsubmit="return validar() ;">
+        <tr bgcolor="306090">
+            <th style="color:white" align="left"  colspan="2">Enviar missatge</th>
+            <th><img src="img/gb_reload_s.gif"></th>
+        </tr>
+        <tr>
+            <th align="right">Nom: </th>
+            <TH align="left"><input type="text" name="Nom" maxlength="50" placeholder="Exemple: Bernat"></th>
+        </tr>
+        <tr>
+            <th align="right">Usuari: </th>
+            <TH align="left"><input type="text" name="Nom" maxlength="8" placeholder="Exemple: Paquito7"></th>
+        </tr>
+        <tr>
+            <th align="right">E-mail: </th>
+            <th align="left"><input type="email" id="email" pattern=".+@gmail\.com" placeholder="milfcachonda69@gmail.com" required></th>
+        </tr>
+        <tr>
+            <th align="right">Contrasenya: </th>
+            <TH align="left"><input type="password" class="form-control" id="psswd" required></th>
+        </tr>
+        <tr>
+            <th align="right">Conf. contrasenya: </th>
+            <TH align="left"><input type="password" class="form-control" id="confpsswd" required></th>
+        </tr>
+        <tr>
+            <th align="right">Arxiu: </th>
+            <th align="left"><input type="text"> <input type="file" multiple></th>
+        </tr>
+        <tr>
+            <th align="right">Imatge: </th>
+            <th align="left"><input type="text"> <input type="file" accept=".jpg, .png" multiple></th>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">El tamany de l'arxiu i la imatge no pot excedir els 4 KBytes</td>
+        </tr>
+        <tr>
+            <th>Quins jocs t'agraden?</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox"> Call of Duty
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox"> League of Legends (muy gay)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox"> Grand Theft Auto
+            </th>
+            </td>
+        <tr>
+            <td>
+                <input type="checkbox"> Gacha (demasiado gay)
+            </td>
+        </tr>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2"><textarea align="center" rows="5" cols="45">
+
+            </textarea></th>
+        </tr>
+        <tr>
+            <th colspan="2" align="center">
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Reinicia" />
+            </th>
+        </tr>
+        </form>
+    </font></table>
+</body>
+</html>
