@@ -1,0 +1,224 @@
+body {
+    background-color:white;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container {
+    width: 555px;
+    height: 355px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* column1 */
+#white1 {
+    background-color: rgb(252, 236, 236);
+    width: 55px;
+    height: 75px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#white2 {
+    background-color: rgb(252, 236, 236);
+    width: 55px;
+    height: 200px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#white3 {
+    background-color:rgb(252, 236, 236);
+    width: 55px;
+    height: 30px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#white4 {
+    background-color: rgb(252, 236, 236);
+    width: 55px;
+    height: 35px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+/* column2 */
+ #yellow1 {
+    background-color: yellow;
+    width: 120px;
+    height: 355px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+  /* column3 */
+  #blue1 {
+    background-color: blue;
+    width: 120px;
+    height: 125px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+  #yellow2 {
+    background-color: yellow;
+    width: 120px;
+    height: 225px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+ /* column4 */
+#column4 {
+    display: flex;
+    flex-direction: column;
+    width: 125px;
+ }
+#red1 {
+    background-color: red;
+    width: 120px;
+    height: 225px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+/* subcol4_1 */
+#subcol4_1 {
+    display: flex;
+    flex-direction: row;
+}
+#red2 {
+    background-color: red;
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+
+}
+#red3 {
+    background-color: red;
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+ 
+}
+/* subcol 4_2 */
+#subcol4_2 {
+    display: flex;
+    flex-direction: row;
+}
+#blue2 {
+    background-color: blue;
+    width: 57.5px;
+    height: 85px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#red4 {
+    background-color: red;
+    width: 57.5px;
+    height: 85px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+}
+ /* colum5 */
+ #colum5 {
+    display: flex;
+    flex-direction: column;
+ }
+
+ /* subcol5_1 */
+ #subcol5_1 {
+    display: flex;
+    flex-direction: row;
+ }
+
+ #yellow3 {
+    background-color: yellow;
+    width: 57.5px;
+    height: 75px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+ /* subcol5_1_1 */
+ #subcol5_1_1 {
+    display: flex;
+    flex-direction: column;
+ }
+ #yellow4 {
+    background-color: yellow;
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+ #red5 {
+    background-color: red;
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+ /*  */
+ /* subcol5_2 */
+ #subcol5_2 {
+    display: flex;
+    flex-direction: row;
+ }
+ #white5 {
+    background-color: rgb(252, 236, 236);
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#white6 {
+    background-color: rgb(252, 236, 236);
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+ /*  */
+ #red6 {
+    background-color: red;
+    width: 120px;
+    height: 105px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+ /* subcol5_3 */
+ #subcol5_3 {
+    display: flex;
+    flex-direction: row;
+ }
+ #yellow5 {
+    background-color: yellow;
+    width: 57.5px;
+    height: 125px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+ #yellow6 {
+    background-color: yellow;
+    width: 57.5px;
+    height: 125px;
+ }
+ 

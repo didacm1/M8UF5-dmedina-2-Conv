@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    align-content: center;
+}
+body{
+    margin:10%;
+    width: 800px;
+    height: 700px;
+}
+#hora{
+    background-color: grey;
+}
+p{
+    font-weight: bolder;
+    border: black 1px solid;
+    display: flex;
+    align-items: center;
+}
+div{
+    text-align: center;
+   display: grid;
+   grid-template-columns: repeat(6, 120px ); 
+   grid-template-rows: repeat(6, 60px); 
+}
+img{
+    width: 55px;
+    height: 57px;
+}
+.img2{
+    margin: 20%;
+    width: 75px;
+    height: 75px;
+}
+.col2{
+    display: grid;
+    grid-row: span 2;
+}
+#pati{
+    display: grid;
+    grid-column: span 6;
+    justify-content: center;
+}
+#pat{
+    width: 450px;
+    height: 55px;
+}
+.col3{
+    display: grid;
+    grid-row: span 3;
+}
+.img3{
+    margin: 10%;
+    width: 95px;
+    height: 125px;
+}

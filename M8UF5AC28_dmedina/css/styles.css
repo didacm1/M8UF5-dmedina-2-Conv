@@ -1,0 +1,119 @@
+.cajas1 {
+    align-items: center;
+    border-color: black;
+    border-width: 50px;
+    border
+}
+
+.box1 {
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 3px solid green;
+}
+.box2 {
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 3px solid green;
+}
+.box3 {
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 3px solid green;
+}
+.box4 {
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 3px solid green;
+}
+.box5 {
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 3px solid green;
+}
+.box6 {
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 3px solid green;
+}
+.box7 {
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 3px solid green;
+}
+.box8 {
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 3px solid green;
+}
+.box9 {
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 3px solid green;
+}
+
+.verde {
+    border-style: solid;
+    border-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dashedverde {
+    border-style: dashed;
+    border-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dashedazul {
+    border-style: dashed;
+    border-color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dashedrojo {
+    border-style: dashed;
+    border-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.rojo {
+    border-style: solid;
+    border-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

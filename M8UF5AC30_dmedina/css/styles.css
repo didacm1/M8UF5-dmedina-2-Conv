@@ -1,0 +1,60 @@
+html, body, ul, li, a, div, nav {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  width: 100%;
+  height: 50px;
+  background: red;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  height: 50px;
+  float: left;
+}
+nav ul a {
+  display: block;
+  width: 100%;
+  height: inherit;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+  color: #FFF;
+}
+nav ul a:hover {
+  background: #333;
+  color: yellow;
+}
+.submenu {
+  position: absolute;
+  display: none;
+  width: 100%;
+  background: red;
+  float: inherit;
+}
+.submenu ul li {
+  display: block;
+  width: 100%;
+}
+nav ul li:hover .submenu {
+  display: block;
+}
+.subsubmenu {
+  position: absolute;
+  display: none;
+  left: 100%;
+  top: 0;
+  width: 100%;
+  background: red;
+  float: inherit;
+}
+.submenu ul li:hover .subsubmenu {
+  display: block;
+}
+

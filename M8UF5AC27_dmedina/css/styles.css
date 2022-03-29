@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+header {
+    padding: 1em;
+    background-color: tomato;
+}
+
+article#bio {
+    padding: 10px;
+    background-color: rgb(247, 67, 36);
+}
+article#equipos {
+    padding: 10px;
+    background-color: rgb(245, 28, 28);
+}
+
+footer {
+    position: fixed;
+    background-color: red;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 12px;
+    height: 1em;
+}
