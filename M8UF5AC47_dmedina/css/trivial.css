@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+#contingut{
+float: right;
+margin-right: 25%;
+color: white;
+text-align: center;
+}
+#nomss{
+  background-color:rgb(55, 0, 255);
+}
+#edad{
+  background-color:rgb(55, 0, 255);
+}
+#cognoms{
+  background-color:rgb(55, 0, 255);
+}
+.res{
+  margin-top: 2%;
+  width: 350px;
+  border: #000 solid 2px;
+}
+.resp{
+  color: #000;
+  margin-top: 20px;
+
+}
+.prova{
+  width:150px;
+  background-color: white;
+  float: left;
+  cursor: pointer;
+  color: #000;
+  margin-top: 10px;
+  border: #000 solid 3px;
+
+}
+h1{
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+    font-size: 75px;
+   
+}
+h2{
+    margin-bottom: 10px;
+    border: solid 4px black;
+    background-color: white;
+    color: black;
+}
+  body {
+    background-image: url("../img/fondo-trivial.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+.formul{
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+    width: 400px;
+    opacity: 92%;
+    background: rgb(104, 161, 235);
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 40px 40px 40px 5px #000;
+}
+
+.but{
+    padding: 2%;
+    margin: 3%;
+    border-radius: 12px;
+    border: solid 3px black;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    width: 200px;
+}

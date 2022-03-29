@@ -1,0 +1,12 @@
+body{
+    padding: 0%;
+    margin: 5% 25% 0% 40%;
+    float: left;
+    background-image: url(https://elandroidefeliz.com/wp-content/uploads/2017/09/Las-mejores-apps-de-fondos-de-pantalla-para-Android.jpg);
+    background-repeat: no-repeat; background-attachment: fixed; background-size: 100% 100%;
+}
+#formus{
+    border: 3px solid black;
+    background: rgb(87,180,58);
+    background-color: white;
+}

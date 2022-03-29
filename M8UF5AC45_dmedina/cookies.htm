@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="formus">
+        <div id="form">
+            <p>Usuari:
+            <p></p><input type="text" id="user"></p>
+            <p>Contrasenya:
+            <p></p><input type="password" id="pass1"> </p>
+            <p>Repeteix la Contrasenya:
+            <p></p><input type="password" id="pass2"></p>
+            <p></p>
+            <button onclick="comprova()">Comprova</button>
+        </div>
+        <div id="storage">
+            <p>Nom:
+            <p></p><input type="text" id="nom"></p>
+            <p>Cognom:
+            <p></p><input type="text" id="cognom"></p>
+            <p></p>
+            <input class="button" onclick="guardar()" type="button" value="Guardar dades">
+            <p></p>
+            <input class="button" onclick="recuperar()" type="button" value="Recuperar dades">
+            <p></p>
+            <input class="button" onclick="esborrar()" type="button" value="Esborrar dades">
+            <script src="./js/script.js"></script>
+            <script src="./js/storage.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
