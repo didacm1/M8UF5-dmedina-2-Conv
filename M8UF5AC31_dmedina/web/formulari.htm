@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulari d'enviament</title>
+    <link rel="stylesheet" href="../css/formulari.css">
+</head>
+<body>
+    <div>
+        <table>
+            <h2>FORMULARI VIATGÈNCIES</h2>
+            <form method="post" action="">
+            <tr>
+                <th class="right">Nom: </th>
+                <TH class="left"><input type="text" name="Nom" maxlength="50" placeholder="El vostre nom"></th>
+            </tr>
+            <tr>
+                <th class="right">Cognoms: </th>
+                <TH class="left"><input type="text" name="Nom" maxlength="8" placeholder="El vostre cognom"></th>
+            </tr>
+            <tr>
+                <th class="right">Sexe: </th>
+                <th class="left"><input type="radio" name="Sexe" value="H" />Home <input type="radio" name="Sexe" value="D" />Dòna</th>
+            </tr>
+            <tr>
+                <th class="right">Telèfon: </th>
+                <th class="left"><input type="text" name="tlf" placeholder="+34 ()"></th>
+            </tr>
+            <tr>
+                <th class="right">Adreça: </th>
+                <th class="left"><input type="text" name="direccio" placeholder="Direcció"></th>
+            </tr>
+            <tr>
+                <th class="right">E-mail: </th>
+                <th class="left"><input type="email" id="email" pattern=".+@gmail\.com" required placeholder="pablocachondo@gmail.com"></th>
+            </tr>
+            <tr>
+                <th class="right">Data de naixement: </th>
+                <th class="left"><input type="date"></th>
+            </tr>
+            <tr>
+                <th class="right">País preferit: </th>
+                <th class="left"><input type="text" name="pais" id="" placeholder="España"></th>
+            </tr>
+            <tr>
+                <th class="right">Métode preferit per viatjar: </th>
+                <th class="left"><input type="text" placeholder="Descriu el teu métode preferit i per qué es aquest i no un altre."></th>
+            </tr>
+            <tr>
+                <th colspan="2" class="center">
+                    <input type="submit" value="Envia" />
+                    <input type="reset" value="Cancela" />
+                </th>
+            </tr>
+            </form>
+        </table>
+    </div>
+</body>
+</html>
